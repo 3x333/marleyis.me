@@ -1,12 +1,26 @@
 body {
-    background-color: black;
-}
-
-.logosvg {
+    text-align: center;
     position: absolute;
+<<<<<<< Updated upstream
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.70);
     width: 100%;
     height: 100%;
 }
+=======
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    font-size: 50px !important;
+    background-color: grey;
+    border-radius: 0px 25px 0px 25px;
+    margin-left: -100%;
+    margin-right: -100%;
+    color: white;
+}
+
+>>>>>>> Stashed changes
