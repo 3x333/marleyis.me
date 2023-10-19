@@ -7,7 +7,7 @@
 #logo path:nth-child(1) {
     stroke-dasharray: 333px;
     stroke-dashoffset: 333px;
-    animation: animateLines 3s ease forwards 0.3s;
+    animation: animateLines 3s ease forwards 0.3s, topBar 2s ease forwards 7s, hide 0s linear forwards 8.5s;
 }
 
 #logo path:nth-child(2) {
@@ -87,6 +87,12 @@
 
 @keyframes topBar {
     to {
-        transform: translateX(%)
+        transform: translateX(39.5%);
+    }
+}
+
+@keyframes hide {
+    to {
+        stroke-width: 0;
     }
 }
